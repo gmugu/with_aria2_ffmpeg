@@ -1,5 +1,5 @@
-FROM xhofe/alist:latest
-LABEL MAINTAINER="i@nn.ci"
+FROM mugu94/alist:latest
+LABEL MAINTAINER="94156510@qq.com"
 VOLUME /opt/alist/data/
 WORKDIR /opt/alist/
 COPY entrypoint.sh /entrypoint.sh
